@@ -7,6 +7,10 @@
 	src:url(../fnt/PN-R.otf);
 	font-family:Regular;
 }
+@font-face{
+	src:url(../fnt/PN-EB.otf);
+	font-family:Extra-Bold;
+}
 html, 
 body{
 	height:100%;
