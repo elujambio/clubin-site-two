@@ -1,5 +1,12 @@
 /* GENERAL CSS FOR CLUBIN SITE */
-
+@font-face{
+	src:url(../fnt/PN-LI.otf);
+	font-family:Light-Italic;
+}
+@font-face{
+	src:url(../fnt/PN-R.otf);
+	font-family:Regular;
+}
 html, 
 body{
 	height:100%;
@@ -10,14 +17,24 @@ body{
 	background-color: rgb(9,9,18);
 	background:url('../img/clubin-background.png');
 	font-family: Helvetica, Arial, sans-serif;
+	font-family: Regular;
 	font-size:24pt;
 
 }
-ul,
+ul,	
 li{
 	margin:0 0;
 	padding:0 0;
 	list-style-type:none; 
+}
+p{
+	display:block;
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+	font-size: .8em;
+}
+.sub-p{
+	font-size: .5em;
 }
 .int,
 .ext{
@@ -40,6 +57,15 @@ li{
 .int{
     text-align: center;
 }
+.cont{
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+.light-italic{
+	font-family:Light-Italic;
+}
+
 /*.cont{
 	display:inline-flex;
 	flex-direction:row;
@@ -47,11 +73,3 @@ li{
 	transform: translateY(-50%);
 	text-align:left;
 }*/
-.padded-72{
-	padding-top:72px;
-	padding-bottom:72px;
-}
-.padded-144{
-	padding-top:144px;
-	padding-bottom:144px;
-}
