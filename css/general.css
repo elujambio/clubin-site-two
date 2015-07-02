@@ -1,0 +1,57 @@
+/* GENERAL CSS FOR CLUBIN SITE */
+
+html, 
+body{
+	height:100%;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	color:#faeebc;
+	background-color: rgb(9,9,18);
+	background:url('../img/clubin-background.png');
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:24pt;
+
+}
+ul,
+li{
+	margin:0 0;
+	padding:0 0;
+	list-style-type:none; 
+}
+.int,
+.ext{
+	text-align: center;
+	margin:0 auto;
+}
+.ext{
+    height: 100%;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.int{
+    text-align: center;
+}
+/*.cont{
+	display:inline-flex;
+	flex-direction:row;
+	align-items:center;	top: 50%;
+	transform: translateY(-50%);
+	text-align:left;
+}*/
+.padded-72{
+	padding-top:72px;
+	padding-bottom:72px;
+}
+.padded-144{
+	padding-top:144px;
+	padding-bottom:144px;
+}

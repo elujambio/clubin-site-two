@@ -1,0 +1,157 @@
+/* SPECIFIC CSS FOR CLUBIN SITE */
+#navbar{
+	position:fixed;
+	height:auto;
+	width:100%;
+	padding-top:4em;
+}
+#navbar img{
+	height:2em;
+}
+#navbar-glyph{
+	text-align:left;
+	width:50%;
+}
+#navbar-glyph img{
+	padding-left:4em;
+}
+#navbar-menu{
+	text-align:right;
+	width:50%;
+}
+#navbar-menu{
+	padding-right:4em;
+}
+#parent-1{
+	width:100%;
+	height:100%;
+	height: calc(100% - 6em);
+	padding-top:6em;
+}
+#parent-1-child-1,
+#parent-1-child-2{
+	width:50%;
+	heigth:100%;
+	height: calc(100% - 3em);
+	padding-bottom:3em;
+}
+#parent-1-child-1 img{
+	align-items:center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#parent-1-child-2{
+	text-align: left;
+}
+#parent-1-child-2 img{
+	height:100%;
+	width:auto;
+
+}
+
+@media screen and (max-width:1440px){
+	#navbar{
+		padding-top:2em;
+	}
+	#navbar-glyph img{
+		padding-left:2em;
+	}
+	#navbar-menu{
+		padding-right:2em;
+	}
+	#parent-1{
+		width:100%;
+		height:100%;
+		height: calc(100% - 6em);
+		padding-top:6em;
+	}
+	#parent-1-child-2 img{
+		height:100%;
+		width:auto;
+	}
+}
+
+@media screen and (max-width:768px){
+	#navbar{
+		padding-top:2em;
+	}
+	#navbar img{
+		heigth:2em;
+	}
+	#navbar-glyph img{
+		padding-left:2em;
+	}
+	#navbar-menu{
+		padding-right:2em;
+	}
+	#parent-1{
+		padding-top:4em;
+		flex-direction:column-reverse;
+		height: 100%;
+		height: calc(100% - 4em);
+	}
+	#parent-1-child-1,
+	#parent-1-child-2{
+		width:100%;
+		padding-bottom:2em;
+	}
+	#parent-1-child-1{
+		height:30%;
+		height: calc(30% - 2em);
+	}
+	#parent-1-child-2{
+		height:70%;
+		height: calc(70% - 2em);
+	}
+	#parent-1-child-1 img{
+		height:70%;
+		width:auto;
+		align-items:center;
+	}
+	#parent-1-child-2{
+		text-align:center;
+	}
+}
+@media screen and (max-width:620px){
+	#navbar{
+		padding-top:1.2em;
+	}
+	#navbar img{
+		height:1.2em;
+	}
+	#navbar-glyph img{
+		padding-left:1.2em;
+	}
+	#navbar-menu{
+		padding-right:1.2em;
+	}
+	#parent-1{
+		height:100%;
+		height: calc(100% - 2.4em);
+		padding-top:2.4em;
+		flex-direction:column-reverse;
+	}
+	#parent-1-child-1{
+		height:30%;
+		height: calc(30% - 1.2em);
+	}
+	#parent-1-child-2{
+		height: 70%;
+		height: calc(70% - 1.2em);
+	}
+	#parent-1-child-1,
+	#parent-1-child-2{
+		padding-bottom:0em;
+	}
+	#parent-1-child-1 img,
+	#parent-1-child-2 img{
+		height:90%;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);		
+	}
+	#parent-1-child-1 img{
+		height:60%;
+	}
+}
