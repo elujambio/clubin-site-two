@@ -12,7 +12,7 @@ NAVBAR CSS START
 	z-index:11000;
 }
 #navbar img{
-	height:2em;
+	height:72px;
 }
 #navbar-glyph{
 	text-align:left;
@@ -24,10 +24,19 @@ NAVBAR CSS START
 #navbar-menu{
 	text-align:right;
 	width:50%;
+	margin-left: calc(50% - 72px - 4em);
+	margin-right:4em;
+	height:72px;
+	width:72px;
+	overflow:hidden;
 }
-#navbar-menu{
-	padding-right:4em;
+#navbar-menu img{
+	left:0;
+	top:0;
+	height:72px;
+	width:auto;
 }
+
 /*
 
 NAVBAR CSS END
@@ -57,12 +66,13 @@ MENU CSS START
 	width: calc(100% - 2em);
 	padding-left:1em;
 }
-.show{
+
+/*.show{
 	opacity:1;
-/*	-webkit-transition: opacity 1.2s;  Safari 
-    transition: opacity 1.2s;*/
+	-webkit-transition: opacity 1.2s;  Safari 
+    transition: opacity 1.2s;
     pointer-events: all;
-}
+}*/
 
 /*
 
@@ -122,7 +132,7 @@ PARENT 1 CSS END
 		padding-left:2em;
 	}
 	#navbar-menu{
-		padding-right:2em;
+		margin-right:2em;
 	}
 	#parent-1{
 		width:100%;
@@ -164,7 +174,7 @@ PARENT 1 CSS END
 		padding-left:2em;
 	}
 	#navbar-menu{
-		padding-right:2em;
+		margin-right:2em;
 	}
 	#menu{
 		font-size:1.2em;
@@ -231,7 +241,13 @@ PARENT 1 CSS END
 		padding-left:1.2em;
 	}
 	#navbar-menu{
-		padding-right:1.2em;
+		height:1.2em;
+		width:1.2em;
+		margin-right:1.2em;
+	}
+	#navbar-menu img{
+		height:1.2em;
+		width:auto;
 	}
 	#parent-1{
 		height:100%;
