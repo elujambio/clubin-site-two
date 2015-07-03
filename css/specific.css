@@ -19,13 +19,13 @@ NAVBAR CSS START
 	width:50%;
 }
 #navbar-glyph img{
-	padding-left:4em;
+	padding-left:72px;
 }
 #navbar-menu{
 	text-align:right;
 	width:50%;
-	margin-left: calc(50% - 72px - 4em);
-	margin-right:4em;
+	margin-left: calc(50% - 144px);
+	margin-right:72px;
 	height:72px;
 	width:72px;
 	overflow:hidden;
@@ -168,13 +168,13 @@ PARENT 1 CSS END
 		padding-top:2em;
 	}
 	#navbar img{
-		heigth:2em;
+		heigth:48px;
 	}
 	#navbar-glyph img{
-		padding-left:2em;
+		padding-left:48px;
 	}
 	#navbar-menu{
-		margin-right:2em;
+		margin-right:48px;
 	}
 	#menu{
 		font-size:1.2em;
@@ -235,19 +235,15 @@ PARENT 1 CSS END
 		padding-top:1.2em;
 	}
 	#navbar img{
-		height:1.2em;
+		height:36px;
 	}
 	#navbar-glyph img{
-		padding-left:1.2em;
+		padding-left:36px;
 	}
 	#navbar-menu{
-		height:1.2em;
-		width:1.2em;
+		height:36px;
+		width:36px;
 		margin-right:1.2em;
-	}
-	#navbar-menu img{
-		height:1.2em;
-		width:auto;
 	}
 	#parent-1{
 		height:100%;
