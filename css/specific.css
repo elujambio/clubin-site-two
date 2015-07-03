@@ -8,7 +8,7 @@ NAVBAR CSS START
 	position:fixed;
 	height:auto;
 	width:100%;
-	padding-top:4em;
+	padding-top:72px;
 	z-index:11000;
 }
 #navbar img{
@@ -86,25 +86,25 @@ PARENT 1 CSS START
 #parent-1{
 	width:100%;
 	height:100%;
-	height: calc(100% - 6em);
-	padding-top:6em;
+	height: calc(100% - 144px);
+	padding-top:144px;
 }
 #motto{
-	padding-top:1.2em;
+	padding-top:24px;
 }
 #parent-1-child-1,
 #parent-1-child-2{
 	width:50%;
-	width: calc(50% - 4em);
+	width: calc(50% - 48px);
 	heigth:100%;
-	height: calc(100% - 3em);
-	padding-bottom:3em;
+	height: calc(100% - 48px);
+	padding-bottom:36px;
 }
 #parent-1-child-1{
-	padding-left:4em;
+	padding-left:72px;
 }
 #parent-1-child-2{
-	padding-right:4em;
+	padding-right:72px;
 }
 #parent-1-child-1 img{
 	align-items:center;
@@ -115,7 +115,6 @@ PARENT 1 CSS START
 #parent-1-child-2 img{
 	height:100%;
 	width:auto;
-
 }
 /*
 
@@ -124,10 +123,10 @@ PARENT 1 CSS END
 */
 @media screen and (max-width:1440px){
 	#navbar{
-		padding-top:2em;
+		padding-top:48px;
 	}
 	#navbar-glyph img{
-		padding-left:2em;
+		padding-left:48px;
 	}
 	#navbar-menu{
 		height:72px;
@@ -142,8 +141,8 @@ PARENT 1 CSS END
 	#parent-1{
 		width:100%;
 		height:100%;
-		height: calc(100% - 6em);
-		padding-top:6em;
+		height: calc(100% - 120px);
+		padding-top:120px;
 	}
 	#parent-1-child-2 img{
 		height:100%;
@@ -167,31 +166,28 @@ PARENT 1 CSS END
 	#parent-1-child-1,
 	#parent-1-child-2{
 		width:50%;
-		width: calc(50% - 2em);
-		padding-bottom:2em;
+		width: calc(50% - 48px);
+		padding-bottom:48px;
 	}
 	#parent-1-child-1{
-		padding-left:2em;
+		padding-left:48px;
 	}
 	#parent-1-child-2{
-		padding-right:2em;
+		padding-right:48px;
 	}	
 }
-@media screen and (max-width:768px) and (min-height:320px) and (max-height:420px){
-	#parent-1-child-2 .cont{
-		transform:translateY(-125%);
-	}
-	#parent-1-child-2 img{
-		top:-100%;
-		height:175%;
-	}
+@media screen and (max-width:768px) and (max-height:420px){	
 	#navbar img{
 		height:24px;
+	}
+	#parent-1{
+		height: 120%;
+		min-height: calc(100% + 144px);
 	}
 }
 @media screen and (max-width:768px){
 	#navbar{
-		padding-top:2em;
+		padding-top:36px;
 	}
 	#navbar img{
 		heigth:48px;
@@ -200,6 +196,8 @@ PARENT 1 CSS END
 		padding-left:48px;
 	}
 	#navbar-menu{
+		height:48px;
+		width:48px;
 		margin-right:48px;
 	}
 	#menu{
@@ -207,14 +205,14 @@ PARENT 1 CSS END
 		line-height:1.2em;
 	}
 	#menu ul{
-		padding-left:1.4em;
-		padding-top:1.4em;
+		padding-left:24px;
+		padding-top:24px;
 	}
 	#parent-1{
-		padding-top:4em;
+		padding-top:72px;
 		flex-direction:column-reverse;
 		height: 100%;
-		height: calc(100% - 4em);
+		height: calc(100% - 72px);
 	}
 	#parent-1-child-1,
 	#parent-1-child-2{
@@ -225,23 +223,19 @@ PARENT 1 CSS END
 	}
 	#parent-1-child-1{
 		height:30%;
-		height: calc(30% - 2em);
+		height: calc(30% - 48px);
 		width:100%;
 		padding-left:0;
 		position:relative;
 	}
+	#motto{
+		padding-top:0px;
+	}
 	#parent-1-child-2{
 		height:70%;
-		height: calc(70% - 2em);
+		height: calc(70% - 48px);
 		width:100%;
 		padding-right:0 0 0 0;
-	}
-	#parent-1-child-1 img{
-		height:70%;
-		width:auto;
-		align-items:center;
-	}
-	#parent-1-child-2{
 		text-align:center;
 	}
 	#parent-1-child-1 img{
@@ -258,7 +252,7 @@ PARENT 1 CSS END
 }
 @media screen and (max-width:620px){
 	#navbar{
-		padding-top:1.2em;
+		padding-top:18px;
 	}
 	#navbar img{
 		height:36px;
@@ -274,17 +268,17 @@ PARENT 1 CSS END
 	}
 	#parent-1{
 		height:100%;
-		height: calc(100% - 2.4em);
-		padding-top:2.4em;
+		height: calc(100% - 48px);
+		padding-top:48px;
 		flex-direction:column-reverse;
 	}
 	#parent-1-child-1{
 		height:30%;
-		height: calc(30% - 1.2em);
+		height: calc(30% - 24px);
 	}
 	#parent-1-child-2{
 		height: 70%;
-		height: calc(70% - 1.2em);
+		height: calc(70% - 24px);
 	}
 	#parent-1-child-1,
 	#parent-1-child-2{
