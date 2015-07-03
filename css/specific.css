@@ -23,7 +23,6 @@ NAVBAR CSS START
 }
 #navbar-menu{
 	text-align:right;
-	width:50%;
 	margin-left: calc(50% - 144px);
 	margin-right:72px;
 	height:72px;
@@ -124,7 +123,6 @@ PARENT 1 CSS END
 
 */
 @media screen and (max-width:1440px){
-
 	#navbar{
 		padding-top:2em;
 	}
@@ -132,7 +130,14 @@ PARENT 1 CSS END
 		padding-left:2em;
 	}
 	#navbar-menu{
-		margin-right:2em;
+		height:72px;
+		width:72px;
+		margin-right:48px;
+		margin-left: calc(50% - 120px);
+	}
+	#navbar img{
+		left:0px;
+		top:0px;
 	}
 	#parent-1{
 		width:100%;
@@ -147,6 +152,18 @@ PARENT 1 CSS END
 	}
 }
 @media screen and (max-width:1280px){
+	#navbar-glyph img{
+		height:48px;
+	}
+	#navbar-menu{
+		height:48px;
+		width:48px;
+		margin-right:48px;
+		margin-left: calc(50% - 96px);
+	}
+	#navbar-menu img{
+		height:48px;
+	}
 	#menu{
 		font-size:1em;
 	}
@@ -238,12 +255,13 @@ PARENT 1 CSS END
 		height:36px;
 	}
 	#navbar-glyph img{
-		padding-left:36px;
+		padding-left:24px;
 	}
 	#navbar-menu{
 		height:36px;
 		width:36px;
-		margin-right:1.2em;
+		margin-right:24px;
+		margin-left: calc(50% - 60px);
 	}
 	#parent-1{
 		height:100%;
